@@ -6,43 +6,34 @@ O objetivo é conectar dois jogadores em um mesmo tabuleiro, respeitando as regr
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 - Implementar o jogo **Pontos e Caixas** com regras e placar.
 - Permitir a comunicação entre **cliente** e **servidor** via **TCP** ou **UDP**.
 - Analisar a diferença de latência e confiabilidade entre os dois protocolos.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Java SE**
 - **Sockets TCP e UDP**
 - **Programação Orientada a Objetos**
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 
-src/
-├── network/
-│    ├── ConnectionManager.java   # interface para gerenciar as conexões
-│    ├── TCPServer.java           # servidor TCP
-│    ├── TCPClient.java           # cliente TCP
-│    ├── UDPServer.java           # servidor UDP
-│    ├── UDPClient.java           # cliente UDP
-│
-├── game/ 
-│    ├── GameLogic.java                # lógica do jogo que escolhemos (Pontos e Caixas)
-├── UI/ 
-│    ├── UI.java                # interface em CLI do jogo
-
+- Fracionado em 3 pastas, cada uma portando de seus respectivos arquivos e funcionalidades, sendo elas:
+- 1. Network: Arquivos que configuram a rede e a conexão dos clients e servers que irão operar entre si fazendo o jogo rodar em P2P.
+- 2. Game: Arquivo de operação lógica do jogo, com a configuração de como funciona o jogo escolhido e como as regras dele são aplicadas.
+- 3. UI: Interface e programação de exibição das posições, atualização do tabuleiro e coisas desse gênero são inseridas no arquivo UI.java dentro dessa pasta.
 
 ````
 
 ---
 
-## 🔍 Funcionalidades
+## Funcionalidades
 
 - **GameLogic**  
   Controla as regras do jogo, verifica jogadas válidas, contabiliza pontos e detecta o fim da partida.
@@ -55,11 +46,11 @@ src/
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 **Arquivo executável na pasta raiz, nomeado como "darplay.bat" compila tudo e roda sozinho.**
 
-## 🎮 Como Jogar
+## Como Jogar
 
 * O tabuleiro padrão é **3x3**.
 * Cada jogador escolhe uma linha (horizontal ou vertical) para marcar.
@@ -68,7 +59,7 @@ src/
 
 ---
 
-## 📈 Possíveis Melhorias
+## Possíveis Melhorias
 
 * Implementar suporte para mais de dois jogadores.
 * Adicionar interface gráfica (GUI).
