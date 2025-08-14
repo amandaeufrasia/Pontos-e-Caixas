@@ -56,6 +56,7 @@ O objetivo é conectar dois jogadores em um mesmo tabuleiro, respeitando as regr
 ## Como Executar
 
 **Arquivo executável na pasta raiz, nomeado como "darplay.bat" compila tudo e roda sozinho.**
+**OBS: Obrigatório possuir JAVA na versão 1.8.0 ou superior e JDK na versão 21.0.8 ou superior. (recomenda-se uso dessas versões para evitar bugs).**
 
 ## Como Jogar
 
