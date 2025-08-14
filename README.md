@@ -20,6 +20,13 @@ O objetivo é conectar dois jogadores em um mesmo tabuleiro, respeitando as regr
 
 ---
 
+
+## Participantes
+- Anny Karine Lopes Cunha - 20241054010022
+- Amanda Karoliny Eufrasia Tavares - 20241054010019
+- Amanda Nogueira Epifânio - 20241054010005
+- Herick Davi Azevedo Gurgel de Moraes - 20241054010045
+
 ## Estrutura do Projeto
 
 ```
